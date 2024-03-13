@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.bg {
+    background: url('https://mumbaimirror.indiatimes.com/photo/77384059.cms') no-repeat center center/cover;
+    position: absolute;
+    top:-30px ;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    filter: blur(0px);
+    z-index: -1;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #000;
+}
